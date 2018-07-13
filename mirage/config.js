@@ -1,6 +1,4 @@
 export default function() {
-
-  export default function() {
     this.namespace = '/api';
 
     this.get('/rentals', function() {
@@ -41,5 +39,4 @@ export default function() {
         }]
       };
     });
-  }
 }
